@@ -57,7 +57,18 @@ print(f"meu nome é {nome} eu tenho {idade} anos")
 
 frase = input("Digite uma frase:")
 print(len(frase))
-print('Tem Python' in frase else 'Não tem Python')
+print('Tem Python' if "Python" in frase else 'Não tem Python')
 print(frase.replace('renanzinho ', 'Renan da Silva',))
 
+email = "renansilva@email.com"
+position = email.find("@")
+print(email[0:position]) # Retorna a parte do email antes do @
+print(email[position+1:]) # Retorna a parte do email depois do @
 
+# Exercício 9 (desafio)
+# Escreva um pequeno programa que receba o nome de uma pessoa (input())
+# e imprima o nome formatado assim: primeira letra maiúscula, resto minúsculo,
+# mesmo que o usuário digite tudo em maiúsculas ou minúsculas.
+
+nome = input("Digite seu nome: ").lower()  # Converte o nome para minúsculas
+print(nome.capitalize())
