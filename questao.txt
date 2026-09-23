@@ -1,0 +1,38 @@
+ALGORITMO
+
+    hamburguer = 18,00
+    refrigerante = 6,00
+    batata_frita = 9,00
+
+    pedido = descreva a quantidade de hamburguer, refrigerante,batata_frita
+
+    calcule a quantidade de cada item * o valor de cada produto
+
+    valor_total = soma dos valores dos produtos
+
+leia o valor_total da soma do valor de cada produto
+
+FIM_DO_ALGORITMO
+
+
+###########################################################
+
+ALGORITMO
+DECLARE qtd_hamburguer : Numerico
+        qtd_refrigerante : Numerico
+        qtd_batata_frita : Numerico
+        preco_total = 18
+        refrigerante = 6
+        batata_frita = 9
+    ESCREVA("Entre com a quantidade de hamburguer:")
+    LEIA(qtd_hamburguer)
+    ESCREVA("Entre com a quantidade de refrigerante:")
+    LEIA(qtd_refrigerante)
+    ESCREVA("Entre com a quantidade de batata Frita:")
+    LEIA(qtd_batata_frita)
+
+    preco_total = ( qtd_refrigerante*refrigerante + qtd_hamburguer*hamburguer + qtd_batata_frita*batata_frita)
+    
+    ESCREVA("valor Totalé: ', preco_total)
+    
+FIM_DO_ALGORITMO

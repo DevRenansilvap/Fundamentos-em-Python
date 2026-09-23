@@ -1,0 +1,19 @@
+ALGORITMO:quantos sao pares
+    DECLARE:i ,N : NUMERICO
+        N <- 0 
+        i <- 1
+    ENQUANTO i <= 5 FAÇA:
+        ESCREVA("QUAL O NUMERO?")
+        LEIA:(N)
+    SE: N MOD 2 = 0:
+        ESCREVA:("É UM NUMERO PAR")
+    SENÃO:("NAO É PAR")
+    i <- i +1
+
+FIM_DO_ALGORITMO
+
+
+ALGORITMO
+    
+
+FIM_DO_ALGORITMO
